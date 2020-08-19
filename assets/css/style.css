@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 10px;
+    font-family: Helvetica, Arial, sans-serif;
+    color: white;
+}
+
+/* apply styles to <header> */
+header {
+    padding: 20px 35px;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #39a6b2;
+
+    margin: 0;
+}
+
+header a {
+    text-decoration: none;
+    color: #39a6b2;
+}
+
+header nav {
+    float: center;
+    margin: 7px 0;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+}
+
+#soda-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    color: #39a6b2;
+    font-size: 20px;
+    text-align: center;
+}
